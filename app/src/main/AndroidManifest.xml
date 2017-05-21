@@ -31,7 +31,8 @@
         <activity android:name=".TimeTableActivity"
                   android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".FacultyActivity"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".ScannerActivity"
                   android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".SyllabusActivity"
@@ -43,21 +44,28 @@
         <activity android:name=".NotesActivity"
                   android:hardwareAccelerated="true" />
         <activity android:name=".SemSelAssignment"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".SemSelAttn"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".SemSelTT"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".SemSelMarks"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".SemSelSyl"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".GalleryActivity"
                   android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CreditsActivity"
-                  android:theme="@style/AppTheme.NoActionBar" />
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".SupportActivity"
-                  android:theme="@style/AppTheme.NoActionBar" />
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

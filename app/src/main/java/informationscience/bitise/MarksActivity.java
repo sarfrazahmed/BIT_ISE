@@ -88,6 +88,7 @@ import android.widget.ProgressBar;
 
                 else
                 {
+                    webView.loadData(sem6,"text/html", "UTF-8");
                     webView.loadData(sem8,"text/html", "UTF-8");
                 }
 
