@@ -35,7 +35,7 @@ public class NotesActivity extends AppCompatActivity {
 
 
         setContentView(R.layout.activity_notes);
-        spinner=(ProgressBar)findViewById(R.id.progressBar3);
+        spinner=(ProgressBar)findViewById(R.id.progressBar4);
 
 
 

@@ -53,12 +53,12 @@ import android.widget.ProgressBar;
                 webSettings.setLoadWithOverviewMode(true);
                 webSettings.setUseWideViewPort(true);
 
-                String sem3 = "<html><iframe src='https://docs.google.com/spreadsheets/d/12snUU5HmZionHOddsz-QRcnvorGwyVFW7DH4CIveyJ4/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
-                String sem4 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1BvpEJcySYv8a-fp63jQhAxbMVEttXxaKF0IgqvMzvII/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
-                String sem5 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1YKy6RZtT8RFgANGkU0Co_5b-GVfa7UkwcYRZTVppdCE/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
-                String sem6 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1GayVytpcxDX_6TRAPUVp56pWlQHarolFPMHnphDgjd0/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
-                String sem7 = "<html><iframe src='https://docs.google.com/spreadsheets/d/14sIYvbWn2RCqCYP3nMIE7-eVMtVbGmbQ425IhXzFG6M/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
-                String sem8 = "<html><iframe src='https://docs.google.com/spreadsheets/d/11qgpI4Gs9iWAmzY6CY74AgJTJ42fInZdfJs4GC73FKw/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem3 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1vVUodurI5G9sSK8yXPs2vnY8aNS17qMSA2uVnsi0SPg/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem4 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1r-EZ3Ds2T4ernsw-fPwHYvDMrFvhXpa__LqFYHC4kP8/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem5 = "<html><iframe src='https://docs.google.com/spreadsheets/d/19rj0otjSDQ92PLoPPv7V5eTJ-RXM3N8-AsYZ6IFF4kA/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem6 = "<html><iframe src='https://docs.google.com/spreadsheets/d/13D0SCMJkWZ2P_H0vqKiYud0l0kWaR4NRPbvoOO8Bl2E/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem7 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1sx3QzzzbutpW1CEHGp645VVjVXbSZ_devx8Rxq2Bxyk/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
+                String sem8 = "<html><iframe src='https://docs.google.com/spreadsheets/d/1ZGI82azFxxDK0GNVmiyiML10YuhDbp7AfDCPpOSHQPc/pubhtml'&embedded='true' width='100%' height='100%' frameborder='0'></iframe></html>";
 
 
                 if (semTitle.equalsIgnoreCase(SemSelMarks.semester_3))

@@ -42,7 +42,8 @@
         <activity android:name=".AssignmentActivity"
                   android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".NotesActivity"
-                  android:hardwareAccelerated="true" />
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:hardwareAccelerated="true"/>
         <activity android:name=".SemSelAssignment"
                   android:theme="@style/AppTheme.NoActionBar"
                   android:screenOrientation="portrait"/>
