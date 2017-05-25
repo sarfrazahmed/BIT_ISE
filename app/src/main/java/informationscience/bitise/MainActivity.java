@@ -221,6 +221,9 @@ public class MainActivity extends AppCompatActivity
 
          else if (id == R.id.nav_send) {
 
+            Intent intent14 = new Intent(MainActivity.this, FeedbackActivity.class);
+            startActivity(intent14);
+
         }
 
 
