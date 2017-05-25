@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity
             share.setType("text/plain");
             StringBuilder sb = new StringBuilder();
             sb.append("Hi, I am using the BIT Information Science App I like this and I want you to check it out.\n");
-            sb.append("https://play.google.com/store/apps/details?id=" + "com.bit.bitise");
+            sb.append("https://play.google.com/store/apps/details?id=" + "informationscience.bitise");
             share.putExtra(Intent.EXTRA_SUBJECT, "Test");
             share.putExtra(Intent.EXTRA_TEXT, sb.toString());
             startActivity(Intent.createChooser(share, "BIT ISE"));
@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity
 
          else if (id == R.id.nav_send) {
 
-            Intent intent14 = new Intent(MainActivity.this, FeedbackActivity.class);
+            Intent intent14 = new Intent(MainActivity.this, FeedbackSelectorActivity.class);
             startActivity(intent14);
 
         }

@@ -85,7 +85,8 @@
             android:name=".SupportActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".FeedbackSelectorActivity"></activity>
     </application>
 
 </manifest>

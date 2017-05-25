@@ -11,7 +11,6 @@ import android.widget.Button;
 
 public class SemSelAssignment extends AppCompatActivity {
 
-
     public static final String EXTRA_ITEM_TITLE = "extra.item.title";
     public static final String semester_3 = "third";
     public static final String semester_4 = "fourth";

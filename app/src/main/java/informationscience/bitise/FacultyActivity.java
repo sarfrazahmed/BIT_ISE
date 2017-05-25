@@ -39,12 +39,13 @@ public class FacultyActivity extends AppCompatActivity {
         webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new myWebclient());
-       // webSettings.setBuiltInZoomControls(true);
-        // webSettings.setUseWideViewPort(true);
-        //webSettings.setLoadWithOverviewMode(true);
+        webSettings.setBuiltInZoomControls(true);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setLoadWithOverviewMode(true);
         webSettings.setSupportZoom(true);
 
-        webView.loadUrl(getString(R.string.facurl));
+
+        webView.loadUrl("file:///android_asset/FacultyDocx.htm");
 
     }
         public class myWebclient extends WebViewClient {
