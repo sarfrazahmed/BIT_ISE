@@ -56,23 +56,18 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SemSelAssignment"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SemSelAttn"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SemSelTT"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SemSelMarks"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SemSelSyl"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".GalleryActivity"
@@ -85,8 +80,12 @@
             android:name=".SupportActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".FeedbackActivity" />
-        <activity android:name=".FeedbackSelectorActivity"></activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".FeedbackSelectorActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

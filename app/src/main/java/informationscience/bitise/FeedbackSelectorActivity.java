@@ -12,6 +12,7 @@ import android.widget.Button;
 public class FeedbackSelectorActivity extends AppCompatActivity {
 
     public static final String EXTRA_ITEM_TITLE = "extra.item.title";
+    public static final String student = "sf";
     public static final String customer = "cf";
     public static final String course = "ce";
     public static final String employer = "es";
@@ -37,12 +38,20 @@ public class FeedbackSelectorActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_feedback_selector);
 
+        Button student = (Button) findViewById(R.id.sf);
         Button customer = (Button) findViewById(R.id.cf);
         Button course = (Button) findViewById(R.id.ce);
         Button employer = (Button) findViewById(R.id.es);
         Button alumni = (Button) findViewById(R.id.af);
         Button events = (Button) findViewById(R.id.ef);
 
+
+        student.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadDetailActivity(FeedbackSelectorActivity.student);
+            }
+        });
         customer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

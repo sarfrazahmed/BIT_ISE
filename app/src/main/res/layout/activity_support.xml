@@ -109,7 +109,7 @@
                         android:layout_below="@+id/phdev1"
                         android:layout_marginLeft="10dp"
                         android:autoLink="email"
-                        android:text="E-Mail: bk.kmr7@gmail.com"
+                        android:text="E-Mail: bhaskar.kumar6116@gmail.com"
                         android:textColor="@android:color/black" />
 
                 </RelativeLayout>
