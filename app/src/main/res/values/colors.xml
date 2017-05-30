@@ -9,7 +9,6 @@
     <color name="viewBg">#f1f5f8</color>
     <color name="list_title">#4c4c4c</color>
     <color name="statusbarcolor">#151515</color>
-    <color name="credits_bg">#8d8b8b</color>
     <color name="cardbgval">#fdfdfe</color>
-    <color name="creditbgcolor">#c0c0c0</color>
+    <color name="creditbgcolor">#f1f1f1</color>
 </resources>
