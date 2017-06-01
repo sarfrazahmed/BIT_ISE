@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "381976262123",
+    "firebase_url": "https://bitise-ffd37.firebaseio.com",
+    "project_id": "bitise-ffd37",
+    "storage_bucket": "bitise-ffd37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381976262123:android:57422ea5644540c8",
+        "android_client_info": {
+          "package_name": "informationscience.bitise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381976262123-206p3gl4tboiao0cjuc6e9keb3sc56gh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "informationscience.bitise",
+            "certificate_hash": "f73e30c2b0b6b0b120b5f0ee2fa14b792efcd9c1"
+          }
+        },
+        {
+          "client_id": "381976262123-vgnabm8in10aakeupiile60t6v4h5s39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ4bbyPoxesJ4UxvWs7yDYTpjuGhkrLEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381976262123-vgnabm8in10aakeupiile60t6v4h5s39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
